@@ -32,7 +32,7 @@ namespace Store_Management_System
         {
             try
             {
-                // below code need to be Explained
+                //below code need to be Explained
                 SqlCommand cmd = new SqlCommand("spGetCategory", dBCon.GetCon());
                 cmd.CommandType = CommandType.StoredProcedure;
                 dBCon.OpenCon();
